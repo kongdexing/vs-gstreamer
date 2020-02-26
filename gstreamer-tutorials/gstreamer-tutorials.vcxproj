@@ -89,8 +89,8 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\gstreamer\1.0\x86\include\gstreamer-1.0;F:\gstreamer\1.0\x86\include\glib-2.0;F:\gstreamer\1.0\x86\include\libxml2;F:\gstreamer\1.0\x86\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>F:\gstreamer\1.0\x86\include\gstreamer-1.0;F:\gstreamer\1.0\x86\include\glib-2.0;F:\gstreamer\1.0\x86\include\libxml2;F:\gstreamer\1.0\x86\include;F:\gstreamer\1.0\x86\bin;F:\gstreamer\1.0\x86\lib\gstreamer-1.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -154,12 +154,20 @@
     <ClCompile Include="tutorial3.cpp" />
     <ClCompile Include="tutorial4.cpp" />
     <ClCompile Include="tutorial5.cpp" />
+    <ClCompile Include="tutorial6.cpp" />
+    <ClCompile Include="tutorial7.cpp" />
+    <ClCompile Include="tutorial8.cpp" />
+    <ClCompile Include="tutorial9.cpp" />
     <ClCompile Include="tutorials.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorial3.h" />
     <ClInclude Include="tutorial4.h" />
     <ClInclude Include="tutorial5.h" />
+    <ClInclude Include="tutorial6.h" />
+    <ClInclude Include="tutorial7.h" />
+    <ClInclude Include="tutorial8.h" />
+    <ClInclude Include="tutorial9.h" />
     <ClInclude Include="tutorials.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

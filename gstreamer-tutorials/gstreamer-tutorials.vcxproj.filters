@@ -30,6 +30,18 @@
     <ClCompile Include="tutorial5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="tutorial6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorials.h">
@@ -42,6 +54,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tutorial5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial9.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

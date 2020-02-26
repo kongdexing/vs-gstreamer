@@ -1,2 +1,23 @@
-﻿  tutorial5.cpp
-  gstreamer-tutorials.vcxproj -> D:\Other\GST\vs-gstreamer\gstreamer-tutorials\Debug\gstreamer-tutorials.exe
+﻿  gstreamer-tutorials.cpp
+  tutorial9.cpp
+  正在生成代码...
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_pb_utils_get_codec_description，该符号在函数 "void __cdecl print_stream_info(struct _GstDiscovererStreamInfo *,int)" (?print_stream_info@@YAXPAU_GstDiscovererStreamInfo@@H@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_stream_info_get_next，该符号在函数 "void __cdecl print_topology(struct _GstDiscovererStreamInfo *,int)" (?print_topology@@YAXPAU_GstDiscovererStreamInfo@@H@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_stream_info_get_caps，该符号在函数 "void __cdecl print_stream_info(struct _GstDiscovererStreamInfo *,int)" (?print_stream_info@@YAXPAU_GstDiscovererStreamInfo@@H@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_stream_info_get_tags，该符号在函数 "void __cdecl print_stream_info(struct _GstDiscovererStreamInfo *,int)" (?print_stream_info@@YAXPAU_GstDiscovererStreamInfo@@H@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_stream_info_get_stream_type_nick，该符号在函数 "void __cdecl print_stream_info(struct _GstDiscovererStreamInfo *,int)" (?print_stream_info@@YAXPAU_GstDiscovererStreamInfo@@H@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_container_info_get_type，该符号在函数 "void __cdecl print_topology(struct _GstDiscovererStreamInfo *,int)" (?print_topology@@YAXPAU_GstDiscovererStreamInfo@@H@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_container_info_get_streams，该符号在函数 "void __cdecl print_topology(struct _GstDiscovererStreamInfo *,int)" (?print_topology@@YAXPAU_GstDiscovererStreamInfo@@H@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_info_get_uri，该符号在函数 "void __cdecl on_discovered_cb(struct _GstDiscoverer *,struct _GstDiscovererInfo *,struct _GError *,struct _CustomData9 *)" (?on_discovered_cb@@YAXPAU_GstDiscoverer@@PAU_GstDiscovererInfo@@PAU_GError@@PAU_CustomData9@@@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_info_get_result，该符号在函数 "void __cdecl on_discovered_cb(struct _GstDiscoverer *,struct _GstDiscovererInfo *,struct _GError *,struct _CustomData9 *)" (?on_discovered_cb@@YAXPAU_GstDiscoverer@@PAU_GstDiscovererInfo@@PAU_GError@@PAU_CustomData9@@@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_info_get_stream_info，该符号在函数 "void __cdecl on_discovered_cb(struct _GstDiscoverer *,struct _GstDiscovererInfo *,struct _GError *,struct _CustomData9 *)" (?on_discovered_cb@@YAXPAU_GstDiscoverer@@PAU_GstDiscovererInfo@@PAU_GError@@PAU_CustomData9@@@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_info_get_duration，该符号在函数 "void __cdecl on_discovered_cb(struct _GstDiscoverer *,struct _GstDiscovererInfo *,struct _GError *,struct _CustomData9 *)" (?on_discovered_cb@@YAXPAU_GstDiscoverer@@PAU_GstDiscovererInfo@@PAU_GError@@PAU_CustomData9@@@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_info_get_seekable，该符号在函数 "void __cdecl on_discovered_cb(struct _GstDiscoverer *,struct _GstDiscovererInfo *,struct _GError *,struct _CustomData9 *)" (?on_discovered_cb@@YAXPAU_GstDiscoverer@@PAU_GstDiscovererInfo@@PAU_GError@@PAU_CustomData9@@@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_info_get_misc，该符号在函数 "void __cdecl on_discovered_cb(struct _GstDiscoverer *,struct _GstDiscovererInfo *,struct _GError *,struct _CustomData9 *)" (?on_discovered_cb@@YAXPAU_GstDiscoverer@@PAU_GstDiscovererInfo@@PAU_GError@@PAU_CustomData9@@@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_info_get_tags，该符号在函数 "void __cdecl on_discovered_cb(struct _GstDiscoverer *,struct _GstDiscovererInfo *,struct _GError *,struct _CustomData9 *)" (?on_discovered_cb@@YAXPAU_GstDiscoverer@@PAU_GstDiscovererInfo@@PAU_GError@@PAU_CustomData9@@@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_stream_info_list_free，该符号在函数 "void __cdecl print_topology(struct _GstDiscovererStreamInfo *,int)" (?print_topology@@YAXPAU_GstDiscovererStreamInfo@@H@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_new，该符号在函数 "int __cdecl tutorial9(int,char * * const)" (?tutorial9@@YAHHQAPAD@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_start，该符号在函数 "int __cdecl tutorial9(int,char * * const)" (?tutorial9@@YAHHQAPAD@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_stop，该符号在函数 "int __cdecl tutorial9(int,char * * const)" (?tutorial9@@YAHHQAPAD@Z) 中被引用
+tutorial9.obj : error LNK2019: 无法解析的外部符号 __imp__gst_discoverer_discover_uri_async，该符号在函数 "int __cdecl tutorial9(int,char * * const)" (?tutorial9@@YAHHQAPAD@Z) 中被引用
+D:\Other\GST\vs-gstreamer\gstreamer-tutorials\Debug\gstreamer-tutorials.exe : fatal error LNK1120: 19 个无法解析的外部命令
